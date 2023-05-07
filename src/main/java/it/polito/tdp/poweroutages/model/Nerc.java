@@ -1,10 +1,12 @@
 package it.polito.tdp.poweroutages.model;
 
+
 public class Nerc {
 
 	
 	private int id;
 	private String value;
+//	private List<PowerOutages> rilevamenti;
 
 	public Nerc(int id, String value) {
 		this.id = id;
@@ -26,6 +28,16 @@ public class Nerc {
 	public void setValue(String value) {
 		this.value = value;
 	}
+
+
+
+//	public List<PowerOutages> getRilevamenti() {
+//		return rilevamenti;
+//	}
+//
+//	public void setRilevamenti(List<PowerOutages> rilevamenti) {
+//		this.rilevamenti = rilevamenti;
+//	}
 
 	@Override
 	public int hashCode() {
